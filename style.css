@@ -1,0 +1,64 @@
+body {
+    background-color: wheat;
+    text-align: center;
+}
+
+/*****************TAG SELECTORS*****************/
+
+hr {
+    border-color: lightcoral;
+    border-style: dotted none none;
+    border-width: 20px;
+    width: 600px;
+}
+
+h1 {
+    color: orange;
+    font-size: 50px;
+}
+
+img {
+    border-style: inset;
+    border-width: 10px;
+    border-radius: 30px;
+    margin-top: 5%;
+    max-width: 20%;
+}
+
+/*****************CLASS SELECTORS*****************/
+
+.underh1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.underparagraph {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.emphasis {
+    font-family: fantasy;
+    color: red;
+}
+
+.superior {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    border-color: orange;
+    margin: 10px;
+}
+
+.insubordinate {
+    background-image: linear-gradient(to right, #C996CC, #916BBF, #3D2C8D, #1C0C5B);
+    border-color: brown;
+    margin: 10px;
+}
+
+.superior:hover, .insubordinate:hover { 
+    transform: scale(1.10); 
+}
+
+.superior:active, .insubordinate:active { 
+    transform: scale(0.99); 
+}
+
